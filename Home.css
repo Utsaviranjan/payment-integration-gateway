@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+*{
+    margin: 0; 
+    padding: 0; 
+}
+body{
+    height: 100vh;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 2vh;
+    color:#c83349;
+    background-color:rgb(46, 48, 69);
+    height: 6vh;
+}   
+.nav{
+    background-color: beige;
+    color: rgb(46, 48, 69);
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1vh;
+}
+.main-area{
+    background-image: url('home.jpg');
+    font-family: 'Acme', sans-serif;
+    height: 77vh;
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10vh;
+    padding-right: 10vh;
+}

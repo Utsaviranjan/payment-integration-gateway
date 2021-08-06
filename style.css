@@ -1,0 +1,209 @@
+*{
+    margin: 0; 
+    padding: 0; 
+}
+body{
+    height: 100vh;
+}
+main{
+    height: 90vh;
+    background: #f0efef;
+}
+header{
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding-left: 2vh;
+      color:#c83349;
+      background-color:rgb(46, 48, 69);
+      height: 8vh;
+  }
+.nav{
+    background-color: beige;
+    border-radius: 5vh;
+    height: 6vh;
+    padding-left: 50vh;
+    display: flex;
+    padding-top: 1vh;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+ul li {
+    display: inline-block;
+    color: rgb(106, 59, 110);
+    padding-right: 2vh;
+}
+ul li a{
+    color: rgb(106, 59, 110);
+    text-decoration: none;
+}
+ul li a:hover{
+    color: rgb(193, 235, 45);
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+.main-area{
+    background-image: url('donate.jpg');
+    height: 90vh;
+    background-repeat: no-repeat; 
+}
+    
+
+footer{
+    display: flex;
+    align-items: center;
+    padding-left: 2vh;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+    height: 4vh;
+    background: #92a8d1;
+}
+.login {
+    /* display: flex; */
+    justify-content: center;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 10px;
+    padding-left: 60vw;
+    padding-top: 10vh;
+    }
+
+form {
+    border: 3px solid #d4c9c9;
+    height: 60vh;
+    width: 35vw;
+    background-color: beige;
+}
+
+h1 {
+    text-align: center;
+    font-size: 90%;
+    }
+
+.icon {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    color: #4286f4;
+    }
+
+.formcontainer {
+    text-align: center;
+    margin: 12px 6px 6px;
+}
+        
+.container {
+    padding: 4px 0;
+    text-align:left;
+}
+
+input[type=text], input[type=password] {
+    width: 50%;
+    padding: 8px 4px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    }
+
+/* bUTTON */
+button {
+    background-color: #4286f4;
+    color: white;
+    padding: 14px 0;
+    margin: 10px 0;
+    border: none;
+    cursor: grab;
+    width: 48%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.donate{
+    padding-right:;
+}
+
+@media screen (max-width:400px){
+    .nav{ padding-left: 2vh;
+    }
+}
+
+/* .donate {
+    background-color: #4CAF50; /* Green */
+    /* border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  } */ 
+
+
+
+
+
+
+
+
+
+
+
+
+/* form {
+    border: 5px solid #f1f1f1;
+    }
+    input[type=text], input[type=password] {
+    width: 100%;
+    padding: 16px 8px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    }
+    .icon {
+    font-size: 110px;
+    display: flex;
+    justify-content: center;
+    color: #4286f4;
+    }
+    button {
+    background-color: #4286f4;
+    color: white;
+    padding: 14px 0;
+    margin: 10px 0;
+    border: none;
+    cursor: grab;
+    width: 48%;
+    }
+    h1 {
+    text-align:center;
+    fone-size:18;
+    }
+    button:hover {
+    opacity: 0.8;
+    }
+    .formcontainer {
+    text-align: center;
+    margin: 24px 50px 12px;
+    }
+    .container {
+    padding: 16px 0;
+    text-align:left;
+    }
+    span.psw {
+    float: right;
+    padding-top: 0;
+    padding-right: 15px;
+    } */
+    /* Change styles for span on extra small screens */
+    /* @media screen and (max-width: 300px) {
+    span.psw {
+    display: block;
+    float: none;
+    } */
